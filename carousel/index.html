@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"></link>
+  <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="header wrap">
+    <div class="left">
+      <img class="profile" src="./images/profile.png" alt="thumb">
+      <span class="user-name">joeunha</span>
+    </div>
+    <div class="right">
+      <img src="./images/icons/mark.png" alt="mark">
+    </div>
+  </div>
+  <div class="body">
+    <div class="carousel">
+      <div class="scroll">
+        <ul>
+          <li class="card"><img src="./images/mountain1.jpg" alt="mountain1"></li>
+          <li class="card"><img src="./images/mountain2.jpg" alt="mountain2"></li>
+          <li class="card"><img src="./images/mountain3.jpg" alt="mountain3"></li>
+          <li class="card"><img src="./images/mountain4.jpg" alt="mountain4"></li>
+        </ul>
+      </div>
+      <img src="./images/icons/arrow-left.png" alt="left-arrow" class="left-arrow arrow-button">
+      <img src="./images/icons/arrow-right.png" alt="right-arrow" class="right-arrow arrow-button active">
+    </div>
+    <div class="action-bar wrap">
+      <div class="left">
+        <img src="./images/icons/heart.png" alt="heart">
+        <img src="./images/icons/chat.png" alt="chat">
+        <img src="./images/icons/paper-plane.png" alt="paper-plane">
+      </div>
+      <div class="indicator">
+        <div class="active"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="right">
+        <img src="./images/icons/bookmark.png" alt="bookmark">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="summary">
+      좋아요 999개
+    </div>
+    <ul class="comments">
+      <li class="comment wrap">
+        <div class="left">
+          <span class="user-name">joeun</span>
+          <span class="comment">hello!</span>
+        </div>
+        <div class="right">
+          <img src="./images/icons/heart.png" alt="heart">
+        </div>
+      </li>
+    </ul>
+    <span class="date">7일전</span>
+    <div class="comment-input">
+      <input type="text" placholder="댓글달기">
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="lib/smoothscroll.min.js"></script>
+<script src="app.js"></script>
+</html>
